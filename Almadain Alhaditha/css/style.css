@@ -1,0 +1,116 @@
+/* Custom CSS Styles for المدائن الحديثة للمقاولات والديكور */
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Tajawal:wght@300;400;500;700;800;900&display=swap');
+
+:root {
+    --primary-navy: #1e293b;
+    --dark-navy: #0f172a;
+    --gold-amber: #d97706;
+    --gold-dark: #b45309;
+}
+
+body {
+    font-family: 'Cairo', 'Tajawal', sans-serif;
+    overflow-x: hidden;
+    letter-spacing: normal !important;
+}
+
+/* Ensure no negative tracking distorts connected Arabic typography */
+h1, h2, h3, h4, h5, h6, span, a, p, button, label, input, textarea {
+    letter-spacing: normal !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d97706;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b45309;
+}
+
+/* Gold Gradient Text */
+.gold-gradient-text {
+    background: linear-gradient(135deg, #fef08a 0%, #d97706 50%, #b45309 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Glassmorphism background */
+.glass-panel {
+    background: rgba(15, 23, 42, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(217, 119, 6, 0.2);
+}
+
+/* Slow Zoom Hero Background Animation */
+@keyframes slowZoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.08);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.animate-slow-zoom {
+    animation: slowZoom 25s infinite ease-in-out;
+}
+
+/* Slow bounce animation for floating buttons */
+@keyframes bounceSlow {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+.animate-bounce-slow {
+    animation: bounceSlow 3s infinite ease-in-out;
+}
+
+/* Active Filter Button */
+.filter-btn.active {
+    background-color: #d97706 !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 14px rgba(217, 119, 6, 0.4);
+}
+
+/* Active Nav Link */
+.nav-link.active-nav {
+    color: #fbbf24 !important;
+    background-color: rgba(217, 119, 6, 0.15);
+}
+
+/* Direction LTR helper for numbers */
+.dir-ltr {
+    direction: ltr;
+    display: inline-block;
+}
+
+/* Smooth Fade transition for portfolio items */
+.portfolio-item {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-item.hidden-item {
+    display: none !important;
+    opacity: 0;
+    transform: scale(0.9);
+}
+

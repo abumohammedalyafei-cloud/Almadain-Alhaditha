@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المدائن الحديثة للمقاولات والديكور | جازان - المملكة العربية السعودية</title>
+    <meta name="description"
+        content="مؤسسة المدائن الحديثة للمقاولات بجازان - ابتكار في البناء وإبداع في الديكور. خدمات أعمال عظم، ترميم وتشطيب، هناجر ومستودعات، وديكورات بأعلى معايير الجودة.">
+    <meta name="keywords"
+        content="مقاولات جازان, ترميم وتشطيب جازان, بناء عظم جازان, هناجر ومستودعات جازان, ديكورات جازان, المدائن الحديثة للمقاولات">
+
+    <!-- Google Fonts: Cairo & Tajawal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Tajawal:wght@300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            50: '#f8fafc',
+                            100: '#f1f5f9',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                            950: '#020617',
+                        },
+                        amber: {
+                            500: '#f59e0b',
+                            600: '#d97706',
+                            700: '#b45309',
+                            800: '#92400e',
+                        },
+                        gold: {
+                            light: '#fef08a',
+                            DEFAULT: '#d97706',
+                            dark: '#b45309',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Cairo', 'Tajawal', 'sans-serif'],
+                        tajawal: ['Tajawal', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom CSS Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-amber-600 selection:text-white">
+
+    <!-- Header / Navigation Bar -->
+    <header id="main-header"
+        class="sticky top-0 z-50 bg-navy-900/95 backdrop-blur-md border-b border-amber-600/20 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+
+                <!-- Logo -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div
+                        class="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500 to-amber-700 p-0.5 shadow-lg shadow-amber-600/20 group-hover:shadow-amber-500/40 transition-all duration-300">
+                        <div class="w-full h-full bg-navy-900 rounded-[10px] flex items-center justify-center">
+                            <i
+                                class="fa-solid fa-building-columns text-2xl text-amber-500 group-hover:scale-110 transition-transform"></i>
+                        </div>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="text-xl sm:text-2xl font-black text-white font-tajawal">
+                            المدائن <span class="text-amber-500 font-extrabold">الحديثة</span>
+                        </span>
+                        <span class="text-xs text-slate-400 font-medium">للمقاولات والديكور - جازان</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden lg:flex items-center gap-1 xl:gap-2">
+                    <a href="#hero"
+                        class="nav-link text-slate-200 hover:text-amber-400 px-4 py-2 text-sm font-semibold rounded-lg transition-all">الرئيسية</a>
+                    <a href="#about"
+                        class="nav-link text-slate-200 hover:text-amber-400 px-4 py-2 text-sm font-semibold rounded-lg transition-all">من
+                        نحن</a>
+                    <a href="#services"
+                        class="nav-link text-slate-200 hover:text-amber-400 px-4 py-2 text-sm font-semibold rounded-lg transition-all">خدماتنا</a>
+                    <a href="#portfolio"
+                        class="nav-link text-slate-200 hover:text-amber-400 px-4 py-2 text-sm font-semibold rounded-lg transition-all">معرض
+                        الأعمال</a>
+                    <a href="#contact"
+                        class="nav-link text-slate-200 hover:text-amber-400 px-4 py-2 text-sm font-semibold rounded-lg transition-all">اتصل
+                        بنا</a>
+                </nav>
+
+                <!-- Action Button Desktop -->
+                <div class="hidden lg:flex items-center gap-3">
+                    <a href="#contact"
+                        class="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white text-sm font-bold py-2.5 px-5 rounded-xl shadow-lg shadow-amber-600/30 hover:shadow-amber-600/50 transition-all flex items-center gap-2">
+                        <i class="fa-solid fa-phone text-base"></i>
+                        <span>اتصل بنا الآن</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Hamburger Button -->
+                <button id="mobile-menu-btn" onclick="toggleMobileMenu()"
+                    class="lg:hidden text-slate-300 hover:text-white p-2.5 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                    aria-label="فتح القائمة">
+                    <i id="menu-icon" class="fa-solid fa-bars text-2xl"></i>
+                </button>
+
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu Drawer -->
+        <div id="mobile-menu"
+            class="hidden lg:hidden bg-navy-950/98 border-b border-slate-800 backdrop-blur-xl px-4 pt-3 pb-6 transition-all">
+            <div class="flex flex-col space-y-3">
+                <a href="#hero" onclick="toggleMobileMenu()"
+                    class="text-slate-200 hover:text-amber-400 hover:bg-slate-800/60 px-4 py-3 rounded-lg text-base font-semibold transition-all">الرئيسية</a>
+                <a href="#about" onclick="toggleMobileMenu()"
+                    class="text-slate-200 hover:text-amber-400 hover:bg-slate-800/60 px-4 py-3 rounded-lg text-base font-semibold transition-all">من
+                    نحن</a>
+                <a href="#services" onclick="toggleMobileMenu()"
+                    class="text-slate-200 hover:text-amber-400 hover:bg-slate-800/60 px-4 py-3 rounded-lg text-base font-semibold transition-all">خدماتنا</a>
+                <a href="#portfolio" onclick="toggleMobileMenu()"
+                    class="text-slate-200 hover:text-amber-400 hover:bg-slate-800/60 px-4 py-3 rounded-lg text-base font-semibold transition-all">معرض
+                    الأعمال</a>
+                <a href="#contact" onclick="toggleMobileMenu()"
+                    class="text-slate-200 hover:text-amber-400 hover:bg-slate-800/60 px-4 py-3 rounded-lg text-base font-semibold transition-all">اتصل
+                    بنا</a>
+
+                <div class="pt-4 border-t border-slate-800 grid grid-cols-2 gap-3">
+                    <a href="tel:0545290331"
+                        class="flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-700 text-amber-400 text-sm font-bold py-3 rounded-xl transition-all">
+                        <i class="fa-solid fa-phone"></i>
+                        <span class="dir-ltr">0545290331</span>
+                    </a>
+                    <a href="tel:0502204046"
+                        class="flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-700 text-amber-400 text-sm font-bold py-3 rounded-xl transition-all">
+                        <i class="fa-solid fa-phone"></i>
+                        <span class="dir-ltr">0502204046</span>
+                    </a>
+                </div>
+                <button onclick="openWhatsAppModal(); toggleMobileMenu();"
+                    class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 rounded-xl shadow-lg flex items-center justify-center gap-2 text-base transition-all">
+                    <i class="fa-brands fa-whatsapp text-xl"></i>
+                    <span>محادثة واتساب مباشرة</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative min-h-[85vh] bg-navy-950 flex items-center overflow-hidden py-16 lg:py-24">
+        <!-- Background Overlay & Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1541888946425-d0fbb186a5b3?q=80&w=1920&auto=format&fit=crop"
+                alt="مقاولات وبناء بجازان"
+                class="w-full h-full object-cover object-center opacity-25 filter contrast-125 scale-105 animate-slow-zoom">
+            <div class="absolute inset-0 bg-gradient-to-r from-navy-950 via-navy-950/90 to-navy-900/80"></div>
+            <div
+                class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(217,119,6,0.15),transparent_50%)]">
+            </div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+
+                <!-- Main Text Column -->
+                <div class="lg:col-span-7 text-center lg:text-right space-y-6">
+
+                    <!-- Badge -->
+                    <div
+                        class="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/30 rounded-full px-4 py-2 backdrop-blur-md">
+                        <span class="w-2.5 h-2.5 rounded-full bg-amber-500 animate-ping"></span>
+                        <span class="text-xs sm:text-sm font-bold text-amber-400">مؤسسة معتمدة في المملكة العربية
+                            السعودية - جازان</span>
+                    </div>
+
+                    <!-- Headline -->
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black text-white leading-tight font-tajawal">
+                        المدائن الحديثة للمقاولات
+                        <span
+                            class="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-amber-500 to-amber-200">
+                            ابتكار في البناء، إبداع في الديكور بجازان
+                        </span>
+                    </h1>
+
+                    <!-- Description -->
+                    <p
+                        class="text-base sm:text-xl text-slate-300 font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                        نقدّم لكم حلولاً هندسية متكاملة تشمل <strong class="text-amber-400 font-semibold">أعمال العظم،
+                            الترميم والتشطيب اللوكس، تنفيذ الهناجر والمستودعات</strong>، وأرقى تصاميم <strong
+                            class="text-amber-400 font-semibold">الديكورات الداخلية والخارجية</strong> بأعلى معايير
+                        الدقة والالتزام التام بالمواعيد.
+                    </p>
+
+                    <!-- Feature Bullet Highlights -->
+                    <div
+                        class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2 text-slate-200 font-medium text-xs sm:text-sm">
+                        <div class="flex items-center gap-2 bg-navy-900/60 p-2.5 rounded-xl border border-slate-800">
+                            <i class="fa-solid fa-circle-check text-amber-500"></i>
+                            <span>أعلى معايير السلامة</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-navy-900/60 p-2.5 rounded-xl border border-slate-800">
+                            <i class="fa-solid fa-circle-check text-amber-500"></i>
+                            <span>التزام تام بالمواعيد</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-navy-900/60 p-2.5 rounded-xl border border-slate-800">
+                            <i class="fa-solid fa-circle-check text-amber-500"></i>
+                            <span>ضمان جودة الأعمال</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-navy-900/60 p-2.5 rounded-xl border border-slate-800">
+                            <i class="fa-solid fa-circle-check text-amber-500"></i>
+                            <span>أسعار تنافسية مدروسة</span>
+                        </div>
+                    </div>
+
+                    <!-- Call To Action Buttons -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+                        <button onclick="openWhatsAppModal()"
+                            class="w-full sm:w-auto bg-gradient-to-r from-amber-500 to-amber-700 hover:from-amber-600 hover:to-amber-800 text-white font-bold px-8 py-4 rounded-xl shadow-xl shadow-amber-600/30 hover:shadow-amber-500/50 hover:-translate-y-0.5 transition-all flex items-center justify-center gap-3 text-lg">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i>
+                            <span>تواصل معنا مباشر</span>
+                        </button>
+                        <a href="#portfolio"
+                            class="w-full sm:w-auto bg-slate-800/80 hover:bg-slate-800 text-white font-bold px-8 py-4 rounded-xl border border-slate-700 hover:border-amber-500/50 transition-all flex items-center justify-center gap-3 text-lg backdrop-blur-md">
+                            <i class="fa-solid fa-images text-amber-500"></i>
+                            <span>استعرض أعمالنا</span>
+                        </a>
+                    </div>
+
+                    <!-- Quick Direct Contact Phones -->
+                    <div
+                        class="pt-4 flex flex-wrap items-center justify-center lg:justify-start gap-6 text-sm text-slate-400">
+                        <span class="text-slate-300 font-semibold">اتصال مباشر:</span>
+                        <a href="tel:0545290331"
+                            class="hover:text-amber-400 transition-colors flex items-center gap-2 dir-ltr">
+                            <i class="fa-solid fa-phone text-amber-500"></i>
+                            <span class="font-bold text-white">0545290331</span>
+                        </a>
+                        <span class="text-slate-600">|</span>
+                        <a href="tel:0502204046"
+                            class="hover:text-amber-400 transition-colors flex items-center gap-2 dir-ltr">
+                            <i class="fa-solid fa-phone text-amber-500"></i>
+                            <span class="font-bold text-white">0502204046</span>
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- Visual Card Column (Image Showcase without the 3 bottom stats boxes as requested) -->
+                <div class="lg:col-span-5 relative">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <!-- Decorative Backdrop Ring -->
+                        <div
+                            class="absolute -inset-2 bg-gradient-to-r from-amber-500 to-amber-700 rounded-3xl blur-xl opacity-30 animate-pulse">
+                        </div>
+
+                        <!-- Hero Card Showcase -->
+                        <div
+                            class="relative bg-navy-900/90 border border-slate-700/80 rounded-3xl p-4 sm:p-5 shadow-2xl backdrop-blur-xl overflow-hidden">
+                            <div class="relative h-72 sm:h-80 rounded-2xl overflow-hidden group">
+                                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1000&auto=format&fit=crop"
+                                    alt="فلة حديثة بجازان"
+                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent">
+                                </div>
+                                <div
+                                    class="absolute bottom-4 right-4 left-4 bg-navy-950/85 backdrop-blur-md p-3.5 rounded-xl border border-slate-700/60">
+                                    <div class="flex justify-between items-center text-xs">
+                                        <span class="text-amber-400 font-bold"><i class="fa-solid fa-star"></i> تنفيذ
+                                            عالي الجودة</span>
+                                        <span class="text-slate-300">جازان - المملكة العربية السعودية</span>
+                                    </div>
+                                    <p class="text-white font-bold text-sm sm:text-base mt-1">مشروع تشطيب وفلل فاخرة</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+
+                <!-- Image Side -->
+                <div class="lg:col-span-5">
+                    <div class="relative">
+                        <div class="absolute -top-4 -right-4 w-72 h-72 bg-amber-500/10 rounded-full filter blur-3xl">
+                        </div>
+                        <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-slate-100">
+                            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1000&auto=format&fit=crop"
+                                alt="فريق المدائن الحديثة للمقاولات"
+                                class="w-full h-[400px] sm:h-[450px] object-cover hover:scale-105 transition-transform duration-700">
+                        </div>
+                        <!-- Floating Badge -->
+                        <div
+                            class="absolute -bottom-6 -left-6 bg-navy-900 text-white p-5 sm:p-6 rounded-2xl shadow-xl max-w-xs border border-amber-500/30 hidden sm:block">
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-12 h-12 bg-amber-500 rounded-xl flex items-center justify-center text-white text-2xl shrink-0">
+                                    <i class="fa-solid fa-award"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-amber-400 text-sm">دقة متناهية</h4>
+                                    <p class="text-xs text-slate-300">في تنفيذ خطط البناء والمواصفات السعودية</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text Side -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div
+                        class="inline-block px-3.5 py-1.5 rounded-full bg-amber-100 text-amber-800 text-xs font-bold tracking-wide">
+                        عن المؤسسة
+                    </div>
+                    <h2 class="text-3xl sm:text-4xl font-black text-navy-900 font-tajawal leading-tight">
+                        من نحن - <span class="text-amber-600">المدائن الحديثة للمقاولات</span>
+                    </h2>
+                    <p class="text-slate-600 text-base sm:text-lg leading-relaxed">
+                        تعد <strong class="text-navy-900 font-bold">مؤسسة المدائن الحديثة للمقاولات</strong> من المؤسسات
+                        الرائدة والموثوقة في منطقة جازان وكافة أنحاء المملكة العربية السعودية. نحن متخصصون في تقديم
+                        خدمات مقاولات متكاملة تشمل <strong class="text-amber-600 font-bold">البناء على العظم، الترميم
+                            والتشطيب، إنشاء الهناجر والمستودعات، وتصميم وتنفيذ الديكورات الفاخرة</strong>.
+                    </p>
+                    <p class="text-slate-600 text-base leading-relaxed">
+                        نعتمد على فريق متخصص من المهندسين والفنيين والعمالة الماهرة ذات الخبرة الطويلة، مع الحرص التام
+                        على تطبيق أعلى معايير كود البناء السعودي واستخدام أجود المواد لضمان متانة وأناقة المشاريع.
+                    </p>
+
+                    <!-- Pillars / Values -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                        <div
+                            class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-200/80 hover:border-amber-500/40 transition-all">
+                            <div
+                                class="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-600 flex items-center justify-center shrink-0 text-xl font-bold">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-navy-900 text-base">الالتزام التام بالمواعيد</h3>
+                                <p class="text-xs text-slate-500 mt-1">تسليم جميع مراحل المشروع في الوقت المحدد دون
+                                    تأخير.</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-200/80 hover:border-amber-500/40 transition-all">
+                            <div
+                                class="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-600 flex items-center justify-center shrink-0 text-xl font-bold">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-navy-900 text-base">جودة المواد والضمان</h3>
+                                <p class="text-xs text-slate-500 mt-1">اختيار أفضل خامات البناء والتشطيب مع تقديم ضمانات
+                                    كتابية.</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-200/80 hover:border-amber-500/40 transition-all">
+                            <div
+                                class="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-600 flex items-center justify-center shrink-0 text-xl font-bold">
+                                <i class="fa-solid fa-compass-drafting"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-navy-900 text-base">دقة التنفيذ الهندسي</h3>
+                                <p class="text-xs text-slate-500 mt-1">إشراف هندسي دقيق على كل خطوة من التأسيس حتى
+                                    التسليم.</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-200/80 hover:border-amber-500/40 transition-all">
+                            <div
+                                class="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-600 flex items-center justify-center shrink-0 text-xl font-bold">
+                                <i class="fa-solid fa-handshake-angle"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-navy-900 text-base">الشفافية والمرونة</h3>
+                                <p class="text-xs text-slate-500 mt-1">عقود واضحة وتكاليف مدروسة تناسب تطلعات وتحديات
+                                    ميزانيتك.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Direct Contact Numbers Button -->
+                    <div class="pt-4 flex flex-wrap gap-4">
+                        <a href="#contact"
+                            class="bg-navy-900 hover:bg-navy-800 text-white font-bold py-3.5 px-7 rounded-xl transition-all shadow-md">
+                            <i class="fa-solid fa-address-book ml-2 text-amber-500"></i>
+                            <span>تواصل معنا للاستشارة المجانية</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Services Section (Exact 4 Core Services) -->
+    <section id="services" class="py-20 bg-slate-100 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Section Title Header -->
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <div
+                    class="inline-block px-3.5 py-1.5 rounded-full bg-amber-500/10 text-amber-700 text-xs font-bold tracking-wide">
+                    خدماتنا المتخصصة
+                </div>
+                <h2 class="text-3xl sm:text-5xl font-black text-navy-900 font-tajawal">
+                    الخدمات الأساسية لمؤسسة المدائن الحديثة
+                </h2>
+                <p class="text-slate-600 text-base sm:text-lg">
+                    نستعرض لكم الخدمات الأربع الرئيسية التي تميزنا في جازان، والمصممة لتلبي كافة احتياجات البناء
+                    والتشطيب والهناجر والديكور بأعلى معايير الإتقان.
+                </p>
+            </div>
+
+            <!-- Services Grid: 4 Dedicated Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- Service 1: ترميم وتشطيب -->
+                <div
+                    class="bg-white rounded-3xl p-6 shadow-xl hover:shadow-2xl border border-slate-200/80 hover:border-amber-500 transition-all duration-300 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <div class="relative h-48 rounded-2xl overflow-hidden mb-5">
+                            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=800&auto=format&fit=crop"
+                                alt="ترميم وتشطيب بجازان"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent">
+                            </div>
+                            <span
+                                class="absolute top-3 right-3 bg-amber-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow">
+                                خدمة رقم 1
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center text-2xl font-bold group-hover:bg-amber-500 group-hover:text-white transition-colors">
+                                <i class="fa-solid fa-paint-roller"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-navy-900 font-tajawal">ترميم وتشطيب</h3>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            خدمات ترميم المباني القديمة والسكنية والتجارية، وتجديد الواجهات، إضافة إلى تشطيبات سوبر لوكس
+                            ومودرن تشمل الدهانات والديكورات والسباكة والكهرباء.
+                        </p>
+                        <ul class="space-y-2 text-xs text-slate-600 border-t border-slate-100 pt-3">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> ترميم
+                                وصيانة المباني والفلل</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> تشطيبات
+                                لوكس وسباكة وكهرباء</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> عزل
+                                الأسطح ومعالجة التصدعات</li>
+                        </ul>
+                    </div>
+                    <div class="pt-6">
+                        <button onclick="openServiceModal('ترميم وتشطيب')"
+                            class="w-full bg-slate-900 group-hover:bg-amber-600 text-white font-bold py-3 rounded-xl transition-colors flex items-center justify-center gap-2 text-sm shadow">
+                            <span>طلب هذه الخدمة</span>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Service 2: هناجر ومستودعات -->
+                <div
+                    class="bg-white rounded-3xl p-6 shadow-xl hover:shadow-2xl border border-slate-200/80 hover:border-amber-500 transition-all duration-300 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <div class="relative h-48 rounded-2xl overflow-hidden mb-5">
+                            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop"
+                                alt="هناجر ومستودعات بجازان"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent">
+                            </div>
+                            <span
+                                class="absolute top-3 right-3 bg-amber-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow">
+                                خدمة رقم 2
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center text-2xl font-bold group-hover:bg-amber-500 group-hover:text-white transition-colors">
+                                <i class="fa-solid fa-warehouse"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-navy-900 font-tajawal">هناجر ومستودعات</h3>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            تصميم وتنفيذ كافة أنواع الهناجر والمستودعات التجارية والصناعية بأعلى معايير السلامة والجودة
+                            العالمية والهياكل الحديدية المتينة.
+                        </p>
+                        <ul class="space-y-2 text-xs text-slate-600 border-t border-slate-100 pt-3">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> هناجر
+                                صناعية وتجارية ومخازن</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> تركيب
+                                ساندوتش بنل وتغطيات حرارية</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> حسابات
+                                أحمال وتصميمات هندسية</li>
+                        </ul>
+                    </div>
+                    <div class="pt-6">
+                        <button onclick="openServiceModal('هناجر ومستودعات')"
+                            class="w-full bg-slate-900 group-hover:bg-amber-600 text-white font-bold py-3 rounded-xl transition-colors flex items-center justify-center gap-2 text-sm shadow">
+                            <span>طلب هذه الخدمة</span>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Service 3: أعمال عظم -->
+                <div
+                    class="bg-white rounded-3xl p-6 shadow-xl hover:shadow-2xl border border-slate-200/80 hover:border-amber-500 transition-all duration-300 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <div class="relative h-48 rounded-2xl overflow-hidden mb-5">
+                            <img src="https://images.unsplash.com/photo-1541888946425-d0fbb186a5b3?q=80&w=800&auto=format&fit=crop"
+                                alt="أعمال عظم بجازان"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent">
+                            </div>
+                            <span
+                                class="absolute top-3 right-3 bg-amber-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow">
+                                خدمة رقم 3
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center text-2xl font-bold group-hover:bg-amber-500 group-hover:text-white transition-colors">
+                                <i class="fa-solid fa-trowel-bricks"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-navy-900 font-tajawal">أعمال عظم</h3>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            بناء العظم للمباني، والفلل، والعمائر السكنية، والمنشآت التجارية مع الحفر والقواعد والخرسانة
+                            المسلحة والمباني بالحوائط بدقة هندسية متناهية.
+                        </p>
+                        <ul class="space-y-2 text-xs text-slate-600 border-t border-slate-100 pt-3">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> بناء
+                                فلل وعمائر سكنية عظم</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> أعمال
+                                صب الخرسانات المسلحة والقواعد</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> إشراف
+                                هندسي ومتابعة يومية للموقع</li>
+                        </ul>
+                    </div>
+                    <div class="pt-6">
+                        <button onclick="openServiceModal('أعمال عظم')"
+                            class="w-full bg-slate-900 group-hover:bg-amber-600 text-white font-bold py-3 rounded-xl transition-colors flex items-center justify-center gap-2 text-sm shadow">
+                            <span>طلب هذه الخدمة</span>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Service 4: ديكورات -->
+                <div
+                    class="bg-white rounded-3xl p-6 shadow-xl hover:shadow-2xl border border-slate-200/80 hover:border-amber-500 transition-all duration-300 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <div class="relative h-48 rounded-2xl overflow-hidden mb-5">
+                            <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop"
+                                alt="ديكورات داخلية وخارجية بجازان"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent">
+                            </div>
+                            <span
+                                class="absolute top-3 right-3 bg-amber-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow">
+                                خدمة رقم 4
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center text-2xl font-bold group-hover:bg-amber-500 group-hover:text-white transition-colors">
+                                <i class="fa-solid fa-couch"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-navy-900 font-tajawal">ديكورات</h3>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            تصميم وتنفيذ أرقى الديكورات الداخلية والخارجية الفاخرة للفلل والشقق والمكاتب، بما يشمل الجبس
+                            بورد، بديل الرخام، بديل الخشب، والإضاءة الحديثة.
+                        </p>
+                        <ul class="space-y-2 text-xs text-slate-600 border-t border-slate-100 pt-3">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> ديكورات
+                                جبس بورد وشاشات مودرن</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> تركيب
+                                بديل الرخام وبديل الخشب</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> تصميم
+                                واجهات وفلل خارجية أنيقة</li>
+                        </ul>
+                    </div>
+                    <div class="pt-6">
+                        <button onclick="openServiceModal('ديكورات')"
+                            class="w-full bg-slate-900 group-hover:bg-amber-600 text-white font-bold py-3 rounded-xl transition-colors flex items-center justify-center gap-2 text-sm shadow">
+                            <span>طلب هذه الخدمة</span>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery Section (Unified Gallery with Filter Tabs) -->
+    <section id="portfolio" class="py-20 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Section Header -->
+            <div class="text-center max-w-3xl mx-auto mb-12 space-y-4">
+                <div
+                    class="inline-block px-3.5 py-1.5 rounded-full bg-amber-500/10 text-amber-700 text-xs font-bold tracking-wide">
+                    نماذج من أعمالنا
+                </div>
+                <h2 class="text-3xl sm:text-5xl font-black text-navy-900 font-tajawal">
+                    معرض أعمال المدائن الحديثة بجازان
+                </h2>
+                <p class="text-slate-600 text-base sm:text-lg">
+                    استعرض باقة من أحدث مشاريعنا المنفذة في منطقة جازان، يمكنك اختيار التصنيف لعرض المشاريع الخاصة بكل
+                    خدمة.
+                </p>
+            </div>
+
+            <!-- Filter Tabs -->
+            <div class="flex flex-wrap justify-center items-center gap-2 sm:gap-3 mb-12">
+                <button onclick="filterPortfolio('all')"
+                    class="filter-btn active bg-amber-600 text-white font-bold px-5 py-2.5 rounded-xl shadow transition-all text-sm">
+                    الكل
+                </button>
+                <button onclick="filterPortfolio('renovation')"
+                    class="filter-btn bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold px-5 py-2.5 rounded-xl transition-all text-sm">
+                    ترميم وتشطيب
+                </button>
+                <button onclick="filterPortfolio('hangars')"
+                    class="filter-btn bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold px-5 py-2.5 rounded-xl transition-all text-sm">
+                    هناجر ومستودعات
+                </button>
+                <button onclick="filterPortfolio('skeleton')"
+                    class="filter-btn bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold px-5 py-2.5 rounded-xl transition-all text-sm">
+                    أعمال عظم
+                </button>
+                <button onclick="filterPortfolio('decor')"
+                    class="filter-btn bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold px-5 py-2.5 rounded-xl transition-all text-sm">
+                    ديكورات
+                </button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div id="portfolio-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Project 1: أعمال عظم -->
+                <div
+                    class="portfolio-item skeleton bg-slate-900 rounded-3xl overflow-hidden shadow-xl group border border-slate-200">
+                    <div class="relative h-72 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1541888946425-d0fbb186a5b3?q=80&w=800&auto=format&fit=crop"
+                            alt="بناء عظم فلة بجازان"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/40 to-transparent opacity-90 group-hover:opacity-95 transition-opacity">
+                        </div>
+                        <div class="absolute top-4 right-4">
+                            <span class="bg-amber-600 text-white text-xs font-bold px-3 py-1.5 rounded-lg shadow">
+                                أعمال عظم
+                            </span>
+                        </div>
+                        <div class="absolute bottom-4 right-4 left-4 text-white">
+                            <span class="text-amber-400 text-xs font-bold block mb-1">جازان - حي الشاطئ</span>
+                            <h3 class="text-xl font-bold font-tajawal">بناء هيكل عظم لفلة سكنية مدروسة</h3>
+                            <div class="mt-3 flex justify-between items-center">
+                                <button
+                                    onclick="openLightbox('بناء هيكل عظم لفلة سكنية', 'أعمال عظم', 'https://images.unsplash.com/photo-1541888946425-d0fbb186a5b3?q=80&w=1200&auto=format&fit=crop', 'تنفيذ أعمال العظم والأساسات والصبات الخرسانية وفق أعلى الاشتراطات الكود السعودي.')"
+                                    class="text-xs bg-amber-500/20 hover:bg-amber-500 text-amber-300 hover:text-white px-3 py-1.5 rounded-lg transition-colors font-semibold">
+                                    <i class="fa-solid fa-expand ml-1"></i> تكبير الصورة
+                                </button>
+                                <button onclick="openWhatsAppForProject('بناء هيكل عظم لفلة سكنية')"
+                                    class="text-xs bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1.5 rounded-lg transition-colors font-bold">
+                                    <i class="fa-brands fa-whatsapp ml-1"></i> استفسر عن هذا العمل
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: هناجر ومستودعات -->
+                <div
+                    class="portfolio-item hangars bg-slate-900 rounded-3xl overflow-hidden shadow-xl group border border-slate-200">
+                    <div class="relative h-72 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop"
+                            alt="إنشاء هناجر ومستودعات ضخمة بجازان"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/40 to-transparent opacity-90 group-hover:opacity-95 transition-opacity">
+                        </div>
+                        <div class="absolute top-4 right-4">
+                            <span class="bg-amber-600 text-white text-xs font-bold px-3 py-1.5 rounded-lg shadow">
+                                هناجر ومستودعات
+                            </span>
+                        </div>
+                        <div class="absolute bottom-4 right-4 left-4 text-white">
+                            <span class="text-amber-400 text-xs font-bold block mb-1">جازان - المدينة الصناعية</span>
+                            <h3 class="text-xl font-bold font-tajawal">مستودع تجاري بهيكل حديدي وعازل</h3>
+                            <div class="mt-3 flex justify-between items-center">
+                                <button
+                                    onclick="openLightbox('مستودع تجاري بهيكل حديدي وعازل', 'هناجر ومستودعات', 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1200&auto=format&fit=crop', 'تنفيذ هنجر تجاري بمساحة واسعة شاملاً التركيب وتغطية الساندوتش بنل والعزل الحراري.')"
+                                    class="text-xs bg-amber-500/20 hover:bg-amber-500 text-amber-300 hover:text-white px-3 py-1.5 rounded-lg transition-colors font-semibold">
+                                    <i class="fa-solid fa-expand ml-1"></i> تكبير الصورة
+                                </button>
+                                <button onclick="openWhatsAppForProject('مستودع تجاري بهيكل حديدي')"
+                                    class="text-xs bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1.5 rounded-lg transition-colors font-bold">
+                                    <i class="fa-brands fa-whatsapp ml-1"></i> استفسر عن هذا العمل
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: ترميم وتشطيب -->
+                <div
+                    class="portfolio-item renovation bg-slate-900 rounded-3xl overflow-hidden shadow-xl group border border-slate-200">
+                    <div class="relative h-72 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=800&auto=format&fit=crop"
+                            alt="ترميم وتشطيب مبنى سكني بجازان"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/40 to-transparent opacity-90 group-hover:opacity-95 transition-opacity">
+                        </div>
+                        <div class="absolute top-4 right-4">
+                            <span class="bg-amber-600 text-white text-xs font-bold px-3 py-1.5 rounded-lg shadow">
+                                ترميم وتشطيب
+                            </span>
+                        </div>
+                        <div class="absolute bottom-4 right-4 left-4 text-white">
+                            <span class="text-amber-400 text-xs font-bold block mb-1">جازان - حي السويس</span>
+                            <h3 class="text-xl font-bold font-tajawal">ترميم وشطب واجهات مبنى تجاري</h3>
+                            <div class="mt-3 flex justify-between items-center">
+                                <button
+                                    onclick="openLightbox('ترميم وشطب واجهات مبنى تجاري', 'ترميم وتشطيب', 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=1200&auto=format&fit=crop', 'تجديد المباني الكامل مع أعمال الدهانات العصرية والمعالجة الإنشائية الجوهرية.')"
+                                    class="text-xs bg-amber-500/20 hover:bg-amber-500 text-amber-300 hover:text-white px-3 py-1.5 rounded-lg transition-colors font-semibold">
+                                    <i class="fa-solid fa-expand ml-1"></i> تكبير الصورة
+                                </button>
+                                <button onclick="openWhatsAppForProject('ترميم وشطب واجهات مبنى تجاري')"
+                                    class="text-xs bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1.5 rounded-lg transition-colors font-bold">
+                                    <i class="fa-brands fa-whatsapp ml-1"></i> استفسر عن هذا العمل
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: ديكورات -->
+                <div
+                    class="portfolio-item decor bg-slate-900 rounded-3xl overflow-hidden shadow-xl group border border-slate-200">
+                    <div class="relative h-72 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop"
+                            alt="تصميم وتنفيذ ديكورات داخلية بجازان"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/40 to-transparent opacity-90 group-hover:opacity-95 transition-opacity">
+                        </div>
+                        <div class="absolute top-4 right-4">
+                            <span class="bg-amber-600 text-white text-xs font-bold px-3 py-1.5 rounded-lg shadow">
+                                ديكورات
+                            </span>
+                        </div>
+                        <div class="absolute bottom-4 right-4 left-4 text-white">
+                            <span class="text-amber-400 text-xs font-bold block mb-1">جازان - حي الصفا</span>
+                            <h3 class="text-xl font-bold font-tajawal">ديكور مجلس فاخر مع بديل الرخام</h3>
+                            <div class="mt-3 flex justify-between items-center">
+                                <button
+                                    onclick="openLightbox('ديكور مجلس فاخر مع بديل الرخام', 'ديكورات', 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop', 'تنفيذ ديكورات الجبس بورد وإضاءات الـ LED الحديثة وتركيب شرائح بديل الرخام والخشب.')"
+                                    class="text-xs bg-amber-500/20 hover:bg-amber-500 text-amber-300 hover:text-white px-3 py-1.5 rounded-lg transition-colors font-semibold">
+                                    <i class="fa-solid fa-expand ml-1"></i> تكبير الصورة
+                                </button>
+                                <button onclick="openWhatsAppForProject('ديكور مجلس فاخر مع بديل الرخام')"
+                                    class="text-xs bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1.5 rounded-lg transition-colors font-bold">
+                                    <i class="fa-brands fa-whatsapp ml-1"></i> استفسر عن هذا العمل
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: أعمال عظم -->
+                <div
+                    class="portfolio-item skeleton bg-slate-900 rounded-3xl overflow-hidden shadow-xl group border border-slate-200">
+                    <div class="relative h-72 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800&auto=format&fit=crop"
+                            alt="إنشاء خرسانات وعمائر بجازان"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/40 to-transparent opacity-90 group-hover:opacity-95 transition-opacity">
+                        </div>
+                        <div class="absolute top-4 right-4">
+                            <span class="bg-amber-600 text-white text-xs font-bold px-3 py-1.5 rounded-lg shadow">
+                                أعمال عظم
+                            </span>
+                        </div>
+                        <div class="absolute bottom-4 right-4 left-4 text-white">
+                            <span class="text-amber-400 text-xs font-bold block mb-1">جازان - حي المطار</span>
+                            <h3 class="text-xl font-bold font-tajawal">مشروع مجمع عمائر عظم</h3>
+                            <div class="mt-3 flex justify-between items-center">
+                                <button
+                                    onclick="openLightbox('مشروع مجمع عمائر عظم', 'أعمال عظم', 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop', 'أعمال صب الأعمدة والأسقف الخرسانية واستكمال حوائط البلوك بدقة هندسية عالية.')"
+                                    class="text-xs bg-amber-500/20 hover:bg-amber-500 text-amber-300 hover:text-white px-3 py-1.5 rounded-lg transition-colors font-semibold">
+                                    <i class="fa-solid fa-expand ml-1"></i> تكبير الصورة
+                                </button>
+                                <button onclick="openWhatsAppForProject('مشروع مجمع عمائر عظم')"
+                                    class="text-xs bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1.5 rounded-lg transition-colors font-bold">
+                                    <i class="fa-brands fa-whatsapp ml-1"></i> استفسر عن هذا العمل
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: ديكورات -->
+                <div
+                    class="portfolio-item decor bg-slate-900 rounded-3xl overflow-hidden shadow-xl group border border-slate-200">
+                    <div class="relative h-72 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=800&auto=format&fit=crop"
+                            alt="ديكورات صالات فاخرة بجازان"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/40 to-transparent opacity-90 group-hover:opacity-95 transition-opacity">
+                        </div>
+                        <div class="absolute top-4 right-4">
+                            <span class="bg-amber-600 text-white text-xs font-bold px-3 py-1.5 rounded-lg shadow">
+                                ديكورات
+                            </span>
+                        </div>
+                        <div class="absolute bottom-4 right-4 left-4 text-white">
+                            <span class="text-amber-400 text-xs font-bold block mb-1">جازان - حي الكورنيش</span>
+                            <h3 class="text-xl font-bold font-tajawal">تشطيب وديكور صالة استقبال مودرن</h3>
+                            <div class="mt-3 flex justify-between items-center">
+                                <button
+                                    onclick="openLightbox('تشطيب وديكور صالة استقبال مودرن', 'ديكورات', 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=1200&auto=format&fit=crop', 'تصميم وتنسيق الألوان والديكورات الجدارية والسقفية بمظهر ملكي جذاب.')"
+                                    class="text-xs bg-amber-500/20 hover:bg-amber-500 text-amber-300 hover:text-white px-3 py-1.5 rounded-lg transition-colors font-semibold">
+                                    <i class="fa-solid fa-expand ml-1"></i> تكبير الصورة
+                                </button>
+                                <button onclick="openWhatsAppForProject('تشطيب وديكور صالة استقبال مودرن')"
+                                    class="text-xs bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1.5 rounded-lg transition-colors font-bold">
+                                    <i class="fa-brands fa-whatsapp ml-1"></i> استفسر عن هذا العمل
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Highlight Banner -->
+    <section class="bg-navy-950 py-10 text-center text-white border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-center">
+            <div class="flex items-center gap-4 text-center md:text-right">
+                <div
+                    class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-500 flex items-center justify-center text-3xl shrink-0">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold font-tajawal">نغطي كافة أحياء ومحافظات منطقة جازان</h4>
+                    <p class="text-xs text-slate-400 mt-1">جازان، صبيا، أبو عريش، صامطة، بيش وكافة المناطق المجاورة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer & Contact Section -->
+    <footer id="contact" class="bg-navy-950 text-slate-400 pt-16 pb-8 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
+
+                <!-- Col 1: About -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div
+                            class="w-10 h-10 rounded-lg bg-amber-500 flex items-center justify-center text-navy-950 text-xl font-bold">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </div>
+                        <span class="text-xl font-black text-white font-tajawal">المدائن الحديثة</span>
+                    </div>
+                    <p class="text-xs leading-relaxed text-slate-400">
+                        مؤسسة متخصصة في أعمال المقاولات العامة والديكور بجازان. نقدم خدمات الترميم والتشطيب، الهناجر
+                        والمستودعات، أعمال العظم، والديكورات بأعلى معايير الإتقان والجودة.
+                    </p>
+                </div>
+
+                <!-- Col 2: Services Links -->
+                <div class="space-y-4">
+                    <h4 class="text-white font-bold text-base font-tajawal border-r-2 border-amber-500 pr-3">خدماتنا
+                        الأساسية</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#services"
+                                class="hover:text-amber-400 transition-colors flex items-center gap-2"><i
+                                    class="fa-solid fa-chevron-left text-[10px] text-amber-500"></i> ترميم وتشطيب مباني
+                                وفلل</a></li>
+                        <li><a href="#services"
+                                class="hover:text-amber-400 transition-colors flex items-center gap-2"><i
+                                    class="fa-solid fa-chevron-left text-[10px] text-amber-500"></i> تصميم وتنفيذ هناجر
+                                ومستودعات</a></li>
+                        <li><a href="#services"
+                                class="hover:text-amber-400 transition-colors flex items-center gap-2"><i
+                                    class="fa-solid fa-chevron-left text-[10px] text-amber-500"></i> بناء العظم
+                                والأساسات والخرسانة</a></li>
+                        <li><a href="#services"
+                                class="hover:text-amber-400 transition-colors flex items-center gap-2"><i
+                                    class="fa-solid fa-chevron-left text-[10px] text-amber-500"></i> تنفيذ ديكورات
+                                جدارية وسقفية</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Quick Links -->
+                <div class="space-y-4">
+                    <h4 class="text-white font-bold text-base font-tajawal border-r-2 border-amber-500 pr-3">روابط سريعة
+                    </h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#hero" class="hover:text-amber-400 transition-colors">الرئيسية</a></li>
+                        <li><a href="#about" class="hover:text-amber-400 transition-colors">عن المؤسسة</a></li>
+                        <li><a href="#portfolio" class="hover:text-amber-400 transition-colors">معرض المشاريع</a></li>
+                        <li><a href="#contact" class="hover:text-amber-400 transition-colors">اتصل بنا مباشرة</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Contact Info (Direct Clickable Call Links) -->
+                <div class="space-y-4">
+                    <h4 class="text-white font-bold text-base font-tajawal border-r-2 border-amber-500 pr-3">معلومات
+                        التواصل</h4>
+                    <div class="space-y-3 text-xs">
+                        <a href="tel:0545290331"
+                            class="flex items-center gap-2 hover:text-amber-400 transition-colors group">
+                            <i class="fa-solid fa-phone text-amber-500 group-hover:scale-110 transition-transform"></i>
+                            <span class="dir-ltr font-bold text-white text-sm">0545290331</span>
+                            <span class="text-[10px] text-amber-500/80 mr-1">(إتصال مباشر)</span>
+                        </a>
+                        <a href="tel:0502204046"
+                            class="flex items-center gap-2 hover:text-amber-400 transition-colors group">
+                            <i class="fa-solid fa-phone text-amber-500 group-hover:scale-110 transition-transform"></i>
+                            <span class="dir-ltr font-bold text-white text-sm">0502204046</span>
+                            <span class="text-[10px] text-amber-500/80 mr-1">(إتصال مباشر)</span>
+                        </a>
+                        <a href="mailto:info@almadain-sa.com"
+                            class="flex items-center gap-2 hover:text-amber-400 transition-colors">
+                            <i class="fa-solid fa-envelope text-amber-500"></i>
+                            <span class="text-slate-300">info@almadain-sa.com</span>
+                        </a>
+                        <p class="flex items-center gap-2 text-slate-300">
+                            <i class="fa-solid fa-location-dot text-amber-500"></i>
+                            <span>جيزان - جازان - المملكة العربية السعودية</span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Clean Centered Copyright Notice (Without date, without same-line location title) -->
+            <div class="pt-8 text-center text-xs text-slate-400">
+                <p>جميع الحقوق محفوظة © لمؤسسة <strong class="text-white">المدائن الحديثة للمقاولات والديكور</strong>.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Dual WhatsApp Contact Button -->
+    <div class="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
+        <button onclick="openWhatsAppModal()"
+            class="group relative bg-emerald-600 hover:bg-emerald-500 text-white p-4 rounded-full shadow-2xl flex items-center justify-center transition-all hover:scale-110 active:scale-95 animate-bounce-slow"
+            aria-label="تواصل واتساب">
+            <i class="fa-brands fa-whatsapp text-3xl"></i>
+            <span
+                class="absolute right-16 bg-navy-900 text-white text-xs font-bold px-3 py-1.5 rounded-lg whitespace-nowrap shadow-lg border border-slate-700 opacity-0 group-hover:opacity-100 transition-opacity">
+                تواصل واتساب فوراً
+            </span>
+        </button>
+    </div>
+
+    <!-- Modals -->
+
+    <!-- Modal 1: Dual WhatsApp Selector Modal -->
+    <div id="whatsapp-modal"
+        class="fixed inset-0 z-50 hidden bg-navy-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl max-w-md w-full p-6 shadow-2xl space-y-6 relative border border-slate-200">
+            <button onclick="closeWhatsAppModal()"
+                class="absolute top-4 left-4 text-slate-400 hover:text-slate-600 text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="text-center space-y-2">
+                <div
+                    class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center text-3xl mx-auto">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <h3 class="text-2xl font-black text-navy-900 font-tajawal">تواصل معنا عبر واتساب</h3>
+                <p class="text-xs text-slate-500">اختر الرقم المناسب للتواصل المباشر معنا بخصوص مشروعك بجازان:</p>
+            </div>
+
+            <div class="space-y-3">
+                <!-- Number 1 -->
+                <a href="https://wa.me/966545290331?text=السلام%20عليكم،%20أرغب%20في%20الاستفسار%20عن%20خدمات%20المدائن%20الحديثة%20للمقاولات"
+                    target="_blank"
+                    class="flex items-center justify-between p-4 rounded-2xl bg-slate-50 hover:bg-emerald-50 border border-slate-200 hover:border-emerald-500 transition-all group">
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-user-gear text-amber-600 text-xl"></i>
+                        <div class="text-right">
+                            <span class="block font-bold text-slate-800 text-sm">الرقم الرئيسي (إدارة المشاريع)</span>
+                            <span class="text-xs text-slate-500 dir-ltr block text-right">0545290331</span>
+                        </div>
+                    </div>
+                    <i
+                        class="fa-brands fa-whatsapp text-emerald-600 text-2xl group-hover:scale-110 transition-transform"></i>
+                </a>
+
+                <!-- Number 2 -->
+                <a href="https://wa.me/966502204046?text=السلام%20عليكم،%20أرغب%20في%20الاستفسار%20عن%20خدمات%20المدائن%20الحديثة%20للمقاولات"
+                    target="_blank"
+                    class="flex items-center justify-between p-4 rounded-2xl bg-slate-50 hover:bg-emerald-50 border border-slate-200 hover:border-emerald-500 transition-all group">
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-headset text-amber-600 text-xl"></i>
+                        <div class="text-right">
+                            <span class="block font-bold text-slate-800 text-sm">الرقم المباشر (الديكور
+                                والمصممين)</span>
+                            <span class="text-xs text-slate-500 dir-ltr block text-right">0502204046</span>
+                        </div>
+                    </div>
+                    <i
+                        class="fa-brands fa-whatsapp text-emerald-600 text-2xl group-hover:scale-110 transition-transform"></i>
+                </a>
+            </div>
+
+            <div class="text-center">
+                <button onclick="closeWhatsAppModal()"
+                    class="text-xs text-slate-400 hover:text-slate-600 font-bold">إغلاق النافذة</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2: Service Details Modal -->
+    <div id="service-modal"
+        class="fixed inset-0 z-50 hidden bg-navy-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+        <div
+            class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl space-y-6 relative border border-slate-200">
+            <button onclick="closeServiceModal()"
+                class="absolute top-4 left-4 text-slate-400 hover:text-slate-600 text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="flex items-center gap-4">
+                <div
+                    class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-600 flex items-center justify-center text-3xl font-bold">
+                    <i class="fa-solid fa-hand-holding-hand"></i>
+                </div>
+                <div>
+                    <span class="text-xs font-bold text-amber-600 block">طلب استشارة أو مقايسة</span>
+                    <h3 id="modal-service-title" class="text-2xl font-black text-navy-900 font-tajawal">خدمة ترميم
+                        وتشطيب</h3>
+                </div>
+            </div>
+
+            <p id="modal-service-desc" class="text-sm text-slate-600 leading-relaxed">
+                نقدم أعلى مستويات الجودة في هذه الخدمة مع ضمان الإشراف الهندسي المتخصص والسرعة في التنفيذ بجازان.
+            </p>
+
+            <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200 space-y-2">
+                <span class="text-xs font-bold text-slate-700 block">خطوات تقديم الخدمة:</span>
+                <div class="text-xs text-slate-600 space-y-1">
+                    <p><i class="fa-solid fa-check text-amber-500 ml-1"></i> 1. معاينة هندسية موقعية مجانية بجازان</p>
+                    <p><i class="fa-solid fa-check text-amber-500 ml-1"></i> 2. تقديم مقايسة تفصيلية بالأسعار والمواصفات
+                    </p>
+                    <p><i class="fa-solid fa-check text-amber-500 ml-1"></i> 3. توقيع العقد والبدء المباشر في التنفيذ
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-3">
+                <button onclick="sendServiceInquiryToWhatsApp('0545290331')"
+                    class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 rounded-xl text-xs flex items-center justify-center gap-2 transition-all shadow">
+                    <i class="fa-brands fa-whatsapp text-base"></i>
+                    <span>طلب عبر 0545290331</span>
+                </button>
+                <button onclick="sendServiceInquiryToWhatsApp('0502204046')"
+                    class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 rounded-xl text-xs flex items-center justify-center gap-2 transition-all shadow">
+                    <i class="fa-brands fa-whatsapp text-base"></i>
+                    <span>طلب عبر 0502204046</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal for Portfolio Showcase -->
+    <div id="lightbox-modal"
+        class="fixed inset-0 z-50 hidden bg-navy-950/90 backdrop-blur-md flex items-center justify-center p-4">
+        <div
+            class="bg-slate-900 text-white rounded-3xl max-w-2xl w-full overflow-hidden shadow-2xl relative border border-slate-700">
+            <button onclick="closeLightbox()"
+                class="absolute top-4 left-4 z-10 w-10 h-10 bg-navy-950/80 rounded-full text-slate-300 hover:text-white flex items-center justify-center text-lg">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="h-80 w-full overflow-hidden relative">
+                <img id="lightbox-img" src="" alt="" class="w-full h-full object-cover">
+                <span id="lightbox-badge"
+                    class="absolute bottom-4 right-4 bg-amber-600 text-white text-xs font-bold px-3 py-1 rounded-lg"></span>
+            </div>
+
+            <div class="p-6 space-y-4">
+                <h3 id="lightbox-title" class="text-2xl font-black font-tajawal text-white"></h3>
+                <p id="lightbox-desc" class="text-sm text-slate-300 leading-relaxed"></p>
+
+                <div class="pt-2 flex justify-between items-center border-t border-slate-800">
+                    <span class="text-xs text-amber-400 font-semibold">مؤسسة المدائن الحديثة للمقاولات - جازان</span>
+                    <button id="lightbox-whatsapp-btn"
+                        class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-5 py-2.5 rounded-xl text-xs flex items-center gap-2 transition-all">
+                        <i class="fa-brands fa-whatsapp text-base"></i>
+                        <span>طلب مشروع مماثل</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast"
+        class="fixed top-6 left-6 z-50 hidden bg-emerald-600 text-white px-6 py-4 rounded-2xl shadow-2xl flex items-center gap-3 text-sm font-bold border border-emerald-400 animate-bounce">
+        <i class="fa-solid fa-circle-check text-xl"></i>
+        <span id="toast-message">تم إرسال طلبك بنجاح!</span>
+    </div>
+
+    <!-- Main JavaScript File -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
